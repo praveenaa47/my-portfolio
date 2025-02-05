@@ -1,9 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import media from '../../assets/viberr.png';
 import snake from '../../assets/snake.png';
-import weather from '../../assets/weather app.avif';
 import vlog from '../../assets/vlog.webp';
 import ProjectCard from '../../common/ProjectCard';
+import  cart from '../../assets/cart.webp'
 
 function Projects() {
   return (
@@ -23,10 +23,10 @@ function Projects() {
           p="Exciting Snake-Game"
         />
         <ProjectCard
-          src={weather}
-          link="https://github.com/praveenaa47/weatherapp"
-          h3="Weather App"
-          p="checking weather"
+          src={cart}
+          link="https://github.com/praveenaa47/Redux-E-CART"
+          h3="E-CART"
+          p="product website"
         />
         <ProjectCard
           src={vlog}

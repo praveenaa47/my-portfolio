@@ -13,25 +13,25 @@ function Skills() {
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
+        <SkillList src={checkMarkIcon} skill="React.Js" />
+        <SkillList src={checkMarkIcon} skill="Angular" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
-        <SkillList src={checkMarkIcon} skill="Node.js" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
-        <SkillList src={checkMarkIcon} skill="REACT"/>
-        <SkillList src={checkMarkIcon} skill="Angular" />
+        <SkillList src={checkMarkIcon} skill="Material UI"/>
+        <SkillList src={checkMarkIcon} skill="Figma" />
         <SkillList src={checkMarkIcon} skill="Redux" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="MongoDB" />
         <SkillList src={checkMarkIcon} skill="Express.js" />
-        <SkillList src={checkMarkIcon} skill="GitHub" />
-        <SkillList src={checkMarkIcon} skill="API" />
-        <SkillList src={checkMarkIcon} skill="Web" />
+        <SkillList src={checkMarkIcon} skill="Node.Js" />
+        <SkillList src={checkMarkIcon} skill="RESTAPI" />
+        <SkillList src={checkMarkIcon} skill="Mongoose" />
       </div>
     </section>
   );
